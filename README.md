@@ -8,3 +8,5 @@
 Прятки - https://github.com/LFG-Aizen/-/blob/main/Hide%20and%20Seek
 
 Калькулятор дохода - https://github.com/LFG-Aizen/-/blob/main/Калькулятор%20дохода
+
+Микроволновка - https://github.com/LFG-Aizen/-/blob/main/Микроволновка
