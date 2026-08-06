@@ -3,6 +3,6 @@
 
 мои проекты 
 
-Калькулятор - https://github.com/lesahannanov-ux/-/blob/main/Calculator
+Калькулятор - https://github.com/LFG-Aizen/-/blob/main/Calculator
 
 Прятки - https://github.com/LFG-Aizen/-/blob/main/Hide%20and%20Seek
