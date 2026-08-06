@@ -1,0 +1,9 @@
+time = 0
+qwe = int(input("Введите кол-во секунд:  "))
+
+for i in range(qwe, 0, -1):
+    print(i)
+print("Я иду искать!")
+
+#ПРЯТКИ
+#Hide and Seek
