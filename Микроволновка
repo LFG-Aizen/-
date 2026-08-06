@@ -1,0 +1,20 @@
+time = 0
+micro = int(input("Введите время для обратного отсчёта (в секундах):  "))
+time = micro
+print("Таймер установлен на", micro, "Секунд")
+for i in range(micro, 0, -1):
+    print()
+    print("Осталось: ", i, "Секунд")
+    print()
+    vopros = int(input("Введите 1, если еда готова, или 0, чтобы продолжить:  "))
+    if vopros == 1:
+        break
+    if vopros == 0:
+        time -= 1
+
+if vopros == 1:
+    print(f"Ваша еда готова, можете забрать! Таймер был прерван на {time} секундах.")
+else:
+    if vopros == 0:
+        print()
+        print(f"Ваша еда готова, можете забрать!")
