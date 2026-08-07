@@ -1,0 +1,16 @@
+educational_grant = 10000  #стипуха
+expenses = 12000 #ТРАТЫ
+mec = 1 #месяц
+qwe = 0  #сколько попросить у родаков крч все вместе деньги
+money = 0  #траты + 3 %
+money2 = 0
+for i in range(1, 11):
+    print(f"{mec} месяц: траты {int(expenses)} рублей, не хватает {int(expenses - educational_grant)} рублей.")
+    money += int(expenses / 100 * 3)
+
+    expenses = 12000 + money
+
+    mec += 1
+    qwe += expenses - educational_grant
+
+print(f"Сумма денег, которую необходимо получить у родителей: {int(qwe - money)} рублей.")
