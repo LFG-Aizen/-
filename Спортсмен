@@ -1,0 +1,16 @@
+sport = int(input("Сколько спортсмен бежит км в час?:  "))
+sport_vopros = int(input("Какую дистанцию в км/должен пробежать спортсмен?:  "))
+sport_hour = 0
+sport_minutes = 0
+sport_distance = 0
+sport = sport / 60
+
+while sport_distance < sport_vopros:
+    sport_distance += sport
+    sport_minutes += 1
+    if sport_minutes >= 60:
+        sport_hour += 1
+        sport_minutes = 0
+
+
+print(f"Спортсмен пробежит {sport_vopros} КМ за {sport_hour} часов и {sport_minutes} минут")
