@@ -1,0 +1,20 @@
+import math
+
+download_size = int(input("Размер файла: "))
+download_speed = int(input("Скорость: "))
+
+if download_size <= 0 or download_speed <= 0:
+    print("Размер обновления и скорость соединения не могут быть меньше нуля.")
+else:
+    secound = 1
+    skachano = 0
+
+    while True:
+        skachano = skachano + download_speed
+        if skachano > download_size:
+            skachano = download_size
+        percent = math.ceil((skachano / download_size) * 100)
+        print(f"Прошло {secound} сек. Скачано {skachano} из {download_size} - {percent} %")
+        if skachano == download_size:
+            break
+        secound = secound + 1
