@@ -19,4 +19,6 @@
 
 Steam обновления - https://github.com/LFG-Aizen/-/blob/main/Steam%20обновление
 
-Продвинутый калькулятор - https://github.com/LFG-Aizen/-/blob/main/Продвинутый%20калькулятор
+Продвинутый калькулятор - https://github.com/LFG-Aizen/-/blob/main/Продвинутый%20калькулятор/
+
+поиск буквы и цифры в тексте - https://github.com/LFG-Aizen/-/blob/main/поиск%20буквы%20и%20цифры%20в%20тексте
