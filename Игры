@@ -64,6 +64,7 @@ def guess_the_number():
 
 
 def main_menu():
+print()
     print("Камень ножницы бумага - 1")
     print("Угадай число - 2")
     game = int(input("Введите действие:  "))
