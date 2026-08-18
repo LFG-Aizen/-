@@ -18,3 +18,5 @@
 Спортсмен - https://github.com/LFG-Aizen/-/blob/main/%D0%A1%D0%BF%D0%BE%D1%80%D1%82%D1%81%D0%BC%D0%B5%D0%BD
 
 Steam обновления - https://github.com/LFG-Aizen/-/blob/main/Steam%20обновление
+
+Продвинутый калькулятор - https://github.com/LFG-Aizen/-/blob/main/Продвинутый%20калькулятор
