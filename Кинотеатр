@@ -1,0 +1,35 @@
+films = [
+    'Крепкий орешек', 'Назад в будущее', 'Таксист',
+
+    'Леон', 'Богемская рапсодия', 'Город грехов',
+
+    'Мементо', 'Отступники', 'Деревня',
+
+    'Проклятый остров', 'Начало', 'Матрица'
+]
+
+count = [ ]
+
+Number_films = int(input("Сколько фильмов выбрать? введите число:  "))
+for i in range(Number_films):
+    count.append(films[i])
+
+while True:
+    print("Ваш текущий топ фильмов: ", count)
+    Name = input("Название фильма:  ")
+    print("Команды - Добавить - Удалить -  Выход")
+    Command = input("Введите команду:  ")
+    if Command == "Добавить" and Name in count:
+        print("!!!Фильм уже в списке!!!")
+        print()
+    elif Command == "Добавить" and Name not in count:
+        count.append(Name)
+        print()
+    elif Command == "Удалить" and Name in count:
+        count.remove(Name)
+        print()
+    elif Command == "Удалить" and Name not in count:
+        print()
+        print("Такого фильма в списке нет!")
+    elif Command == "Выход":
+        break
