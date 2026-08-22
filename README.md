@@ -24,3 +24,5 @@ Steam обновления - https://github.com/LFG-Aizen/-/blob/main/Steam%20о
 поиск буквы и цифры в тексте - https://github.com/LFG-Aizen/-/blob/main/поиск%20буквы%20и%20цифры%20в%20тексте
 
 Игры - https://github.com/LFG-Aizen/-/blob/main/Игры
+
+Кинотеатр - https://github.com/LFG-Aizen/-/blob/main/Кинотеатр
