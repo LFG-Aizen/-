@@ -1,0 +1,16 @@
+
+def count_letters(n):
+    cifra = 0
+    count = 0
+    e = input("Какую букву ищем:  ")
+    ww = input("Какую цифру ищем:  ")
+    for i in n:
+        if i == e:
+            count += 1
+        elif i == ww:
+            cifra += 1
+    print(f"Букв {e}: {count}")
+    print(f"Цифр {ww}: {cifra}")
+
+q = input("Введите текст:  ")
+count_letters(q)

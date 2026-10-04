@@ -1,0 +1,10 @@
+calculator = int(input("Введите первое число: "))
+calculator1 = int(input("Введите второе число: "))
+
+print("Калькулятор на +:", calculator, "+", calculator1, "=", calculator + calculator1)
+print("Калькулятор на -:", calculator, "-", calculator1, "=", calculator - calculator1)
+print("Калькулятор на *:", calculator, "*", calculator1, "=", calculator * calculator1)
+print("Калькулятор на /:", calculator, "/", calculator1, "=", calculator / calculator1)
+print("Калькулятор на //:", calculator, "//", calculator1, "=", calculator // calculator1)
+print("Калькулятор на %:", calculator, "%", calculator1, "=", calculator % calculator1)
+print("Калькулятор на **:", calculator, "**", calculator1, "=", calculator ** calculator1)
