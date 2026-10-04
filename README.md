@@ -1,4 +1,4 @@
-# Алексей — Python / Full-Stack Developer
+# Aizen — Python / Full-Stack Developer
 
 Привет. Меня зовут Алексей, я начинающий разработчик на Python и Full-Stack.
 
